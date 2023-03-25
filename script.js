@@ -1,7 +1,7 @@
-markread = document.getElementsByClassName('mark-read');
+const markread = document.getElementsByClassName('mark-read');
 
 markread[0].addEventListener('click', () => {
-  unreads = document.getElementsByClassName('notification-unread');
+  const unreads = document.getElementsByClassName('notification-unread');
   for (let i = 0; i < unreads.length; i++) {
     const unread = unreads[i];
     unread.style.backgroundColor = 'white';
